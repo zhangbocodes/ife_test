@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+
+	</style>
+</head>
+<body>
+	
+	倒计时：<input type="text" id="time"></input>
+	<button onclick="djs()">start</button>
+	<div id="newtime"></div>
+
+</body>
+<script type="text/javascript">
+	
+
+function djs() {
+	var time=document.getElementById('time');
+	var newtime=Number(time.value);
+	var newdiv=document.getElementById('newtime');
+	
+	setInterval(function(){
+		if (newtime>=0) {
+			newdiv.innerHTML=newtime;
+			newtime--;
+		}else{
+			newdiv.innerHTML=0;
+		}
+		
+	},1000);
+}
+
+</script>
+</html>
