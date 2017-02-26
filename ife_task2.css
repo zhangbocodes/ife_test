@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	font-family: "Microsoft Yahei";
+	background: #ccc;
+}
+
+.nav{
+	background: #333;
+	position: relative;
+	height: 50px;
+}
+#baidupic{
+	width: 200px;
+	height: 50px;
+}
+.nav-link{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+.nav-link li{	
+	float: left;
+	padding: 8px 20px 8px 0px;
+	font-size: 15px;
+	background: #333;
+}
+.nav-link li a{
+	color: white;
+	text-decoration: none;
+	background: #333;
+	font-size: 12px;
+}
+article{
+	background: white;
+	display: block;
+	margin: 20px 30px;
+	padding: 25px;
+	box-shadow: 2px 2px 2px 2px #848484;
+}
+article h2{
+	padding: 10px 0;
+}
+article h3{
+	padding: 10px 0;
+	color: #ccc;
+}
+.aut{
+	color: #ccc;
+}
+.aut span{
+	margin: 0 5px;
+}
+p{
+	text-indent: 2em;
+	line-height: 2em;
+}
+article li{
+	list-style: none;
+	text-indent: 2em;
+	line-height: 2em;
+}
+article ul{
+	padding: 5px 0px;
+}
+.pics div{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 10px 25px;
+}
+.pics img{
+	width: 100px;
+	height: 100px;	
+}
+.pics p{
+	text-indent: 0;
+}
+#arti li{
+	list-style: decimal;
+	text-indent: 0;
+}
+#arti ol{
+	padding: 0 40px;
+}
+#arti p{
+	text-indent: 0;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+#tr1{
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+td{
+	padding: 5px;
+}
+#tr_last{
+	background: #ccc;
+	font-weight: bold;
+}
+.form{
+	background: white;
+	display: block;
+	margin: 30px;
+	padding: 25px;
+	box-shadow: 2px 2px 2px 2px #848484;
+}
+form p{
+	text-align: right;
+	padding-right: 500px;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.form h2{
+	padding: 10px 0;
+}
+.info{
+	color: #ccc;
+}
+textarea{
+	width: 500px;
+	height: 150px;
+	font-size: 15px;
+}
+#text{
+	float: left;
+	padding-left: 30%;
+	padding-right: 0;
+}
+#submit{
+	width: 100%;
+	background: #128eff;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.choose{
+	text-align: left;
+	padding-left: 400px;
+}
+form input{
+	margin: 0 2px;
+}
+.footer{
+	background: #333;
+	position: relative;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+}
