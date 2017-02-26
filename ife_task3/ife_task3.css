@@ -1,0 +1,56 @@
+
+#info{
+	margin: 20px;
+	padding: 20px;
+	height: 500px;
+	background: #eee;
+	border:1px solid #999;
+}
+
+
+#left {
+	position: absolute;
+	top:40px;
+	width: 200px;
+	height: 120px;
+	background: white;
+	left:40px;
+	border:1px solid #999;
+}
+#left img{
+	float: left;
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+}
+#left div{
+	float: left;
+	margin-top:20px; 
+	font-weight: bold;
+	font-family: "Microsoft Yahei";
+	font-size: 13px;
+}
+
+#right {
+	position: absolute;
+	top:40px;
+	width: 120px;
+	height: 500px;
+	background: white;
+	right:40px;
+	border:1px solid #999;
+}
+#right img{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border:1px solid #999;
+}
+
+#main {
+	margin: 0 180px 0 230px;
+	height: 90%;
+	background: white;
+	text-align: center;
+	border:1px solid #999;
+}
